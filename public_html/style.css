@@ -1,0 +1,258 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-light-webfont.woff2') format('woff2'),
+         url('opensans-light-webfont.woff') format('woff'),
+         url('opensans-light-webfont.ttf') format('truetype'),
+         url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:white;
+	font-family:"open_sanslight", Arial, Helvetica, sans-serif;
+}
+
+#main-container {
+	width:900px;
+	height: 560px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+}
+
+.left-container {
+	width:450px;
+	height:100%;
+	float:left;
+	display: block;
+}
+
+.right-container {
+	width:450px;
+	height:100%;
+	float:right;
+	text-align:center;
+	display:block;
+}
+
+.right-container img {
+	margin-top:65px;	
+}
+
+.right-container h1 {
+	margin-left:160px;
+	margin-top:5px;
+	font-size:40px;
+	color:#da5e7d;
+}
+
+.right-container p {
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.footer {
+	width:1000px;
+	height:60px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	color:white;
+	background-color:#da5e7d;
+	display: block;
+	
+}
+
+.footer p {
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.footer a { 
+	color: white;
+	text-decoration:none;
+	font-weight:bold;
+}
+	.clearBoth{
+clear:both;	
+}
+
+
+
+@media (max-width: 658px) {
+
+#main-container {
+	width:100%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+
+.left-container {
+	width:100%;
+	display: block;
+	float:none;
+	height:auto;
+}
+
+.left-container img {
+	width:300px;
+	min-width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.right-container {
+	width:100%;
+	text-align:center;
+	display:block;
+	margin-left:0;
+	float:none;
+
+}
+
+.right-container img {
+	margin-top:20px;	
+}
+
+.right-container h1 {
+	margin-left:0;
+	margin-top:5px;
+	font-size:40px;
+	color:#da5e7d;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+.right-container p {
+	padding-left:15px;
+	padding-right:15px;
+		
+}
+
+.footer {
+	width:100%;
+	
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	color:white;
+	background-color:#da5e7d;
+	display: block;
+	margin-top:100px;padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+.footer p {
+	padding-top: 0;
+	font-size: 15px;
+	margin:5px 0 5px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.footer a { 
+	color: white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+}
+/* Motab */
+@media  (min-width:657px) and (max-width: 890px)  {
+	.right-container img {
+	margin-top:40px;	
+	width:80%;
+}
+
+#main-container {
+	width:600px;
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+
+.left-container {
+	width:300px;
+	display: block;
+}
+
+.left-container img {
+	width:250 px;
+	margin-left:0px;
+	margin-top:20px;
+}
+
+.right-container {
+	width:250px;
+	height:100%;
+	text-align:center;
+	display:block;
+	margin-left:20px;
+	
+}
+
+.right-container h1 {
+   color: #da5e7d;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: -15px;
+    margin-top: 10px;
+   
+}
+
+.right-container p {
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.footer {
+	width:100%;
+
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	color:white;
+	background-color:#da5e7d;
+	display: block;
+	margin-top: 110px;
+}
+
+.footer p {
+	padding:0!important;
+	font-size: 20px;
+}
+
+.footer a { 
+	color: white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+}
+
+
+.womanImg {
+	width:100%;	
+}
+
+.loveLogo {
+	width:50%;	
+}
